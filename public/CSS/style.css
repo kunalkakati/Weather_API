@@ -1,0 +1,171 @@
+body {
+    background-color: #ccf2f4;
+    font-family: 'Libre Baskerville', serif;
+    /* background-color: #cae4db; */
+    /* background-image: url(images-weather.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    color: rgb(27, 25, 25);
+}
+
+.home {
+    padding: 2% 15% 0;
+    
+}
+/* Navbar.............................................. */
+.nav-item a {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: black;
+}
+
+:hover.nav-item a {
+    color: #98ded9;
+}
+
+.main-body {
+    /* text-align: center; */
+    padding-left: 10px;
+    /* margin-top: 70px; */
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+:hover.btn {
+    letter-spacing: 2px;
+    color: #98ded9;
+}
+
+.navbar {
+    
+    margin-bottom: 70px;
+    padding: 2% 15% 0;
+}
+
+/* result page...................................... */
+.result-page {
+    /* text-align: center; */
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+    color: #214151;
+    
+}
+.result-h2 {
+    padding-bottom: 20px;
+    
+}
+.row {
+    margin-top: 50px;
+}
+ 
+
+.result {
+    padding: 2% 15% 0;
+}
+
+
+/* Footer................................... */
+footer{
+    position: absolute;
+    background-color: aqua;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.foot-pera{
+    font-size: 18px;
+    padding: 8px 0 5px 0;
+    font-family: 'Newsreader', serif;
+}
+
+/* About page............................... */
+.about-body {
+    text-align: center;
+    padding: 4% 13%;
+    background-color: #fcf8ec;
+}
+
+.about-pera-2 {
+    line-height: 2;
+    font-size: 1.1rem;
+    
+}
+
+.about-pera-1 {
+    font-weight: 600;
+    color: #41584b;
+    letter-spacing: 2px;
+}
+.about-div-2 {
+    margin-top: 30px;
+}
+
+
+/* Connect page...................................... */
+#contect {
+    background-image: url("IMG/b-img.jpg");
+    /* background-color: azure; */
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 4% 10%;
+}
+
+.contect-info {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.pera-1 {
+    padding: 0 120px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.user-info {
+    padding-bottom: 20px;
+}
+
+.user-input{
+    display: flex;
+    width: 425px;
+    margin-top: 50px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    margin-left: 23px;
+}
+
+:focus.user-input {
+    outline: none;
+}
+
+.type-info {
+    background-color: #fff;
+    margin-left: 220px;
+}
+
+.btn-from {
+    margin-top: 50px;
+    margin-left: 23px;
+    margin-bottom: 50px;
+}
+
+.my-contect {
+    margin-top: 60px;
+    line-height: 0px;
+}
+
+.my-contect p {
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+

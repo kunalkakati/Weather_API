@@ -1,0 +1,17 @@
+<%- include("header"); -%>
+<div class="home">
+<h2>Know weather condition in your city</h2>
+        <form action="/" method="POST">
+        <label for="cityInput" class="form-label">Enter your city name:</label>
+        <input class="form-control" list="datalistOptions" id="cityInput" placeholder="Type to search..." type="text" name="cityName">
+        <button class="btn btn-outline-dark" type="submit">Go  </button>
+        <datalist id="datalistOptions">
+          <option value="Guwahati">
+          <option value="New York">
+          <option value="seoul">
+          <option value="Los Angeles">
+          <option value="mumbai">
+        </datalist>
+        </form>
+    </div>
+<%- include("footer"); -%>

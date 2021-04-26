@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather webApp</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3c71e11fdd.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="icon" href="IMG/favicon.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-light ">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"><i class="fab fa-korvue"></i>unal's weather WebApp</span>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contect Us</a>
+          </li>
+         
+        </ul>
+      </div>
+      </nav>
+      <div class="main-body">
+        <h2>Know weather condition in your city</h2>
+    <form action="/" method="POST">
+    <label for="cityInput" class="form-label">Enter your city name:</label>
+    <input class="form-control" list="datalistOptions" id="cityInput" placeholder="Type to search..." type="text" name="cityName">
+    <button class="btn btn-outline-dark" type="submit">See  </button>
+    <datalist id="datalistOptions">
+      <option value="Guwahati">
+      <option value="New York">
+      <option value="seoul">
+      <option value="Los Angeles">
+      <option value="mumbai">
+    </datalist>
+  </form>
+</div>
+  </body>
+</html>

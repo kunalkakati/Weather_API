@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect Us</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/3c71e11fdd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <section id="contect">
+        <div class="contect-info">
+            <h1>Contect Us</h1>
+            <p class="pera-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit eveniet magni soluta, odio rerum quibusdam quia ipsa molestias quisquam praesentium? Consequuntur temporibus veritatis earum pariatur, dolorem iure nostrum omnis.</p>
+        </div>
+        <div class="row user-info">
+            <div class="col">
+             <div class="my-contect">
+             <h2>Address</h2>
+             <p>ipsum dolor sit amet consectetur adipisicing elit. Quaerat, non.</p> 
+            </div>
+             <div class="my-contect">
+             <h2>Phone no.</h2>
+             <p>+91 4256986217</p>
+            </div>
+             <div class="my-contect">
+                <h2>Email</h2>
+                <p>kunal@gmail.com</p>
+            </div>
+            </div>
+            <div class="col type-info">
+                <h3>Send messegs</h3>
+                <form action="/contect" method="POST">
+                    <input type="text" placeholder="Full Name" class="user-input">
+                    
+                    <input type="email" placeholder="E-Mail" class="user-input">
+                   
+                    <input type="text" placeholder="Type messges.." class="user-input">
+                    <button class="btn btn-dark btn-from" type="submit" name="buttom" onclick="showAlert()" >Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
